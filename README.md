@@ -11,6 +11,7 @@ Konfigurasi ini untuk membantu kalian sesuai dengan pengalaman yang saya alami s
 ## Pengaruh Software
 
 xampp gblok ( error apache dan mysql mulu)
+
 laragon tolol (error apache mulu)
 
 
