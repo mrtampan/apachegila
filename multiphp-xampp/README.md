@@ -1,4 +1,11 @@
-## intruksi
+## Download php 
+
+https://windows.php.net/download#php-7.4
+
+download yg ada tulisan VS15 / VS 16 . bukan yang source code
+
+
+## Tutorial
 
 SETTING EXTENSION PHP XAMPP
 1. Buka folder C:/xampp/php/NAMA-FOLDER-VERSI-PHP (PHP5_6_40 / PHP7_4_13, dll)
@@ -31,6 +38,6 @@ SETTING APACHE XAMPP
 5. Simpan
 
 
-## Tutorial
+## Sumber belajar
 
 https://youtu.be/uTmsY9A80PI
