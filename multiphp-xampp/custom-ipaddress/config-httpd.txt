@@ -1,0 +1,43 @@
+#CONFIG PHP 5.6.40
+ScriptAlias /php5_6_40/ "C:/xampp/php5_6_40/"
+<Directory "C:/xampp/php5_6_40">
+    AllowOverride None
+    Options None
+    Require all denied
+    <Files "php-cgi.exe">
+          Require all granted
+    </Files>
+</Directory>
+
+#Listen 127.0.0.5
+<VirtualHost 127.0.0.5:80>
+    UnsetEnv PHPRC
+    <FilesMatch "\.php$">
+        php_flag engine off
+        SetHandler application/x-httpd-php5_6_40
+        Action application/x-httpd-php5_6_40 "/php5_6_40/php-cgi.exe"
+    </FilesMatch>
+</VirtualHost>
+
+
+
+#CONFIG PHP 7.4.13
+ScriptAlias /php7_4_13/ "C:/xampp/php7_4_13/"
+<Directory "C:/xampp/php7_4_13">
+    AllowOverride None
+    Options None
+    Require all denied
+    <Files "php-cgi.exe">
+          Require all granted
+    </Files>
+</Directory>
+
+#Listen 127.0.0.6
+<VirtualHost 127.0.0.6:80>
+    UnsetEnv PHPRC
+    <FilesMatch "\.php$">
+        php_flag engine off
+        SetHandler application/x-httpd-php7_4_13
+        Action application/x-httpd-php7_4_13 "/php7_4_13/php-cgi.exe"
+    </FilesMatch>
+</VirtualHost>
